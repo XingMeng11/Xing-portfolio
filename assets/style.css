@@ -1,12 +1,83 @@
-header {
+*{
+   
+}
+
+
+.header {
     padding: 40px;
-    text-align: center;
-    color: rgb(185, 172, 219);
-    background-image: ;
+    background-image: url("background7.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: #898199;
+   
+  
 }
 
 .me {
     padding: 20px 10px;
     border: 2px solid #bfbfbf;
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
+    font-family: "Lucida Console", Courier, monospace;
   }
+
+.surf{
+    background-image: url("background3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Lucida Console", Courier, monospace;
+    
+ }
+
+.led{
+    background-image: url("background4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Lucida Console", Courier, monospace;
+ }
+
+.calculator{
+    background-image: url("background5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Lucida Console", Courier, monospace;
+}
+
+.pastel{
+    background-image: url("background1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Lucida Console", Courier, monospace;
+}
+
+.run{
+    background-image: url("background6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Lucida Console", Courier, monospace;
+}
+
+
+.header h1 {
+    
+    font-size: 48px;
+  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+
+
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header nav ul li {
+    display: inline-block;
+   
+    margin-left: 7px;
+}
