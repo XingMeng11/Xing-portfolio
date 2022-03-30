@@ -9,27 +9,47 @@ h1{
     color: rgb(121, 126, 126);
     font-family: "Gill Sans", sans-serif;
     padding-top: 30px;
+    margin: 5px 0;
+    padding: 0;
 }
 nav {
    text-align: right;
+   display: flex;
+  
+ 
 }
 nav a {
    font-family: "Gill Sans", sans-serif;
    font-size: 21px;
    color: rgb(160, 121, 154);
-   padding: 20px;
-   padding-bottom: 30px;
+   padding: 15px;
+   
+}
+
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clear {
+    clear: both;
 }
 
 h3 {
     font-family: "Gill Sans", sans-serif;  
-    color:rgb(29, 27, 27);
+    color:rgb(101, 91, 104);
     font-size: 27px;
     
 }
 .col-top{
-    padding: 1em 1em;
+  
     background:rgb(241, 228, 239);
+    padding: 0px 10px;
+   
 }
 
 .col-bottom{
@@ -78,8 +98,8 @@ section{
 
 .bottom-left {
     position: absolute;
-    bottom:120px;
-    left: 16px;
+    bottom:80px;
+    left: 14px;
     color: rgb(29, 27, 27);
     background-color: rgb(219, 212, 212);;
     font-size:25px ;
@@ -88,169 +108,51 @@ section{
 
 .w-100{
     width: 100%;
-    position: relative;
-    /* padding: .5rem;
-    */
+
 }
 .w-50{
     width: 50%;
-    position: relative;
-    /* padding: .5rem;
-    */
-   
 }
 
+.box{
+
+    padding:0.5em ;
+    position: relative;
+    
+}
 .box > img{
     width: 100%;
-    height: 80%;
-padding: 0.5em;
-
-
+    height: 100%;
+    object-fit: cover;
+    border:5px solid  rgb(219, 212, 212);
 }
+
 #contact a{
 padding: 20px;
-font-size: 30px;
+font-size: 2em;
 color: rgb(160, 121, 154);
+
+ 
 }
 #resume a{
     color: rgb(160, 121, 154);
     font-size: 30px;
     text-decoration: none;
 }
-/* .info{
-    text-align: center;
-    
-} */
-
-/* header { */
-    /* padding: 40px;
-    background-image: url("background1.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
-    /* width: 100%;
-    color: #898199;
-}
-h1{
-    text-align: left;
-    background-color: rgb(241, 228, 239);
-    padding: 20px 20px;
-  position: absolute;
-	
-}
-nav {
-    display: flex;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
- }
-
-nav a{
-    margin-left: 7px;
-    padding: 14px 20px;
-    text-decoration: none;
-    text-align: center;
-    
-  } */
-
-
-/* .box {
-    padding: 20px 10px;
-    background-color: rgb(255, 255, 255);
-    font-family: "Lucida Console", Courier, monospace;
-     
-  }
-
-
-.surf{
-    background-image: url("background3.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: "Lucida Console", Courier, monospace;
-    border: 5px solid rgb(219, 212, 212);
-    border-radius: 5px;
-    padding: 5px;
-}
-    
-
-
-.led{
-    background-image: url("background2.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: "Lucida Console", Courier, monospace;
-    border: 5px solid rgb(219, 212, 212);
-    border-radius: 5px;
-    padding: 5px;
- }
-
-.calculator{
-    background-image: url("background5.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: "Lucida Console", Courier, monospace;
-    border: 5px solid rgb(219, 212, 212);
-    border-radius: 5px;
-    padding: 5px;
-}
-
-.pastel{
-    background-image: url("background1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: "Lucida Console", Courier, monospace;
-    border: 5px solid rgb(219, 212, 212);
-    border-radius: 5px;
-    padding: 5px;
-}
-
-.run{
-    background-image: url("background6.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: "Lucida Console", Courier, monospace;
-    border: 5px solid rgb(219, 212, 212);
-    border-radius: 5px;
-    padding: 5px;
-}
 
 
 
-.header h1 {
-    
-    font-size: 48px;
+
   
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+@media screen and (max-width: 750px) {
+    .w-50{
+        width: 100%;
+    }
+    
+    nav {
+        flex-direction: column;
+    }
+
    
 }
-
-
-
-  .contact{
-    display: flex;
-
-    padding: 14px 20px;
-    text-decoration: none;
-   
-    
-
-
-    
-  } */
-    
-/* @media screen and (max-width: 992px) {
       
-      }
-      
-     
-@media screen and (max-width: 768px) {
-       
-      }
-      
-    
-@media screen and (max-width: 576px) {
-       nav, .contact {
-            flex-direction: column;
-          }
-      } */
-       */
