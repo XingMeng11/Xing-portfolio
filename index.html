@@ -7,72 +7,94 @@
     <link rel="stylesheet" type="text/css" href="./assets/style.css" />
   </head>
   <body>
-    <header class="header">
-        <h1>Xing Meng</h1>
-        <nav>
-          <ul>
-            <li><a href="#">Resume</a></li>
-            <li><a href="#">Contact me</a></li>
-            <li><a href="#">work</a></li>
-            <li><a href="#">About me</a></li>
-          </ul>
-        </nav>
-        <h3>Welome to my page</h3>
+    <header>
+      <!-- <div class="container"> -->
+        <div class= "col-top">
+           <h1>Xing Meng</h1>
+        
+      <nav>
+            <a href="#resume">Resume</a>
+            <a href="#contact">Contact me</a>
+            <a href="#work">work</a>
+            <a href="#about">About me</a>
+      </nav>
+    </div> 
+       <div class="col-bottom">
+      <h3>Welome to my page</h3>
+      </div>
+      </div>
     </header>
+   
+   
 
-    <main class="main">
-        <section>
-          <div class="me About me">
+    <main class="container">
+        <section id="about">
+          <div class="col-left">
             <h2>About me</h2>
-           <p>sdksjhfdhjvnzjdhfzvnfjdguvhvndjfgjhsdkvsaahsdfjkaDshansdj</p>
+          </div>
+          <div class="col-right">
+           <p>sdksjhfdhjvnzjdhfzvnfjdguvhvndjfgjhsdkvsaahsdfjkaDshansdj
+               cjghsdghcnvgdgmcfgdfcgsfgdhcskgsdfgmsdkcb
+               gcskjehg sdfmb  bdcegkmhjhrgdjrjtyuieuw
+           </p>
+           <p>dhfsbvshbrsdvbnfcugmhrugvndfmgj cfhfdgauriythaindabvsui
+               fhewrtcnfegrmctgkrjtieyuvndfhsnvfsdjn
+           </p>
           </div>
         </section>
 
-        <section>
-            <div class="me Work">
+        <section id="work">
+            <div class="col-left">
               <h2>Work</h2>
-              <section class="surf">
+            </div>
+            <div class="col-right">
+              <subsection class="surf">
                   <h3>Surf Report</h3>
                   <p>MARN Stack</p>
-              </section>
-              <section class="led">
+              </subsection>
+              <subsection class="led">
                   <h3>LED Wall</h3>
                   <p>Node/loT </p>
-              </section>
-              <section class="calculator">
+              </subsection>
+              <subsection class="calculator">
                   <h3>Calculator</h3>
                   <p>React/Javascript/CSS</p>
-              </section>
-              <section class=pastel>
+              </subsection>
+              <subsection class="pastel">
                   <h3>Pastel Puzzels</h3>
                   <p>MARN Stack</p>
-              </section>
-              <section class=run>
+              </subsection>
+              <subsection class="run">
                   <h3>Run Buddy</h3>
                   <p>HTML/CSS</p>
-              </section>
-             
-             
+              </subsection>
             </div>
+             
+            
         </section>
 
-        <section>
-            <div class="me Contact me">
-              <h2>Contact me</h2>
+        <section id="contact">
+            <div class="col-left">
+            <h2>Contact me</h2>
+            </div>
+            <div class="col-right">
               <ul>
                 <a href="#">123-456-789</a>
                 <a href="#">Email</a>
                 <a href="#">LinkedIn</a>
                 <a href="#">Github</a>
              </ul>
-            </div>
+             </div>
           </section>
 
-          <section>
-           <div class="me Contact me">
+        <section id="resume">
+            <div class="col-left">
             <h2>Resume</h2>
-            <a href="#">read my resume</a>
-          </section>
+            </div>
+            <div class="col-right">
+            <a href="#">  read my resume</a>
+        </div>
+        </section>
   
 
   </body>
