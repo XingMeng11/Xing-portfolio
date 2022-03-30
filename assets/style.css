@@ -3,16 +3,30 @@
     margin: 0;
     padding: 0;
 } 
+
 h1{
     font-size: 50px;
     color: rgb(121, 126, 126);
     font-family: "Gill Sans", sans-serif;
+    padding-top: 30px;
 }
- nav{
- text-align: right;
- font-family: "Gill Sans", sans-serif;
- }
+nav {
+   text-align: right;
+}
+nav a {
+   font-family: "Gill Sans", sans-serif;
+   font-size: 21px;
+   color: rgb(160, 121, 154);
+   padding: 20px;
+   padding-bottom: 30px;
+}
 
+h3 {
+    font-family: "Gill Sans", sans-serif;  
+    color:rgb(29, 27, 27);
+    font-size: 27px;
+    
+}
 .col-top{
     padding: 1em 1em;
     background:rgb(241, 228, 239);
@@ -34,9 +48,15 @@ body{
     max-width: 94%;
     margin: 0 auto;
 }
+
+h2{
+    color:rgb(160, 121, 154); 
+    font-size: 35px;
+}
 section{
     padding-top: 2em;
     display: flex;
+    font-family: "Gill Sans", sans-serif;
 }
 .col-left{
     width: 20%;
@@ -47,8 +67,60 @@ section{
 .col-right{
     width: 80%;
     padding-left: 30px;
+    display: flex;
+    flex-wrap: wrap;
 
 }
+.col-right > p {
+    color: rgb(160, 121, 154);
+    font-size: 25px;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom:120px;
+    left: 16px;
+    color: rgb(29, 27, 27);
+    background-color: rgb(219, 212, 212);;
+    font-size:25px ;
+}
+
+
+.w-100{
+    width: 100%;
+    position: relative;
+    /* padding: .5rem;
+    */
+}
+.w-50{
+    width: 50%;
+    position: relative;
+    /* padding: .5rem;
+    */
+   
+}
+
+.box > img{
+    width: 100%;
+    height: 80%;
+padding: 0.5em;
+
+
+}
+#contact a{
+padding: 20px;
+font-size: 30px;
+color: rgb(160, 121, 154);
+}
+#resume a{
+    color: rgb(160, 121, 154);
+    font-size: 30px;
+    text-decoration: none;
+}
+/* .info{
+    text-align: center;
+    
+} */
 
 /* header { */
     /* padding: 40px;
